@@ -1,17 +1,17 @@
 <template>
   <div id="nav">
+    <main-tab-bar></main-tab-bar>
   </div>
   <router-view/>
 </template>
+<script>
+  import MainTabBar from '@/components/tabbar/MainTabBar'
+  export default {
+    components: {MainTabBar}
+  }
 
+</script>
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
 
 #nav {
   padding: 30px;
