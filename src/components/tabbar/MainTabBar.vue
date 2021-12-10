@@ -3,37 +3,37 @@
     <template v-slot>
       <tab-bar-item path="/home">
         <template v-slot:icon>
-          <img src="../../assets/img/tabbar/home.svg" alt="" class="myImg">
+          <img src="~assets/img/tabbar/home.svg" alt="" class="myImg">
         </template>
         <template v-slot:icon-active>
-          <img src="../../assets/img/tabbar/home_active.svg" alt="" class="myImg">
+          <img src="~assets/img/tabbar/home_active.svg" alt="" class="myImg">
         </template>
         <template v-slot:icon-text>首页</template>
       </tab-bar-item>
       <tab-bar-item path="/category">
         <template v-slot:icon>
-          <img src="../../assets/img/tabbar/category.svg" alt="" class="myImg">
+          <img src="~assets/img/tabbar/category.svg" alt="" class="myImg">
         </template>
         <template v-slot:icon-active>
-          <img src="../../assets/img/tabbar/category_active.svg" alt="" class="myImg">
+          <img src="~assets/img/tabbar/category_active.svg" alt="" class="myImg">
         </template>
         <template v-slot:icon-text>分类</template>
       </tab-bar-item>
       <tab-bar-item path="/cart">
         <template v-slot:icon>
-          <img src="../../assets/img/tabbar/shopcart.svg" alt="" class="myImg">
+          <img src="~assets/img/tabbar/shopcart.svg" alt="" class="myImg">
         </template>
         <template v-slot:icon-active>
-          <img src="../../assets/img/tabbar/shopcart_active.svg" alt="" class="myImg">
+          <img src="~assets/img/tabbar/shopcart_active.svg" alt="" class="myImg">
         </template>
         <template v-slot:icon-text>购物车</template>
       </tab-bar-item>
       <tab-bar-item path="/profile">
         <template v-slot:icon>
-          <img src="../../assets/img/tabbar/profile.svg" alt="" class="myImg">
+          <img src="~assets/img/tabbar/profile.svg" alt="" class="myImg">
         </template>
         <template v-slot:icon-active>
-          <img src="../../assets/img/tabbar/profile_active.svg" alt="" class="myImg">
+          <img src="~assets/img/tabbar/profile_active.svg" alt="" class="myImg">
         </template>
         <template v-slot:icon-text>我的</template>
       </tab-bar-item>
