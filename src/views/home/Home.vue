@@ -1,7 +1,7 @@
 <template>
   <nav-bar class="home-navbar">
     <template v-slot:center>
-      <div>测试</div>
+      <div>购物街</div>
     </template>
   </nav-bar>
   <home-swiper :banners="banners"></home-swiper>
@@ -21,11 +21,7 @@ export default {
   data() {
     return {
       banners: [],
-      recommends: [],
-      tabOffsetTop: 0,
-      test: ["https://s10.mogucdn.com/mlcdn/c45406/180926_45fkj8ifdj4l824l42dgf9hd0h495_750x390.jpg",
-      "https://s10.mogucdn.com/mlcdn/c45406/180926_31eb9h75jc217k7iej24i2dd0jba3_750x390.jpg",
-      "https://s10.mogucdn.com/mlcdn/c45406/180919_3f62ijgkj656k2lj03dh0di4iflea_750x390.jpg"],
+      recommends: []
     }
   },
   mounted() {
