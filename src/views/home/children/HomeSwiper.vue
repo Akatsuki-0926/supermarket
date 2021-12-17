@@ -1,6 +1,6 @@
 <template>
   <div class="homeSwiper">
-    <swiper :autoplay="options.autoplay" loop :pagination="{ clickable : true }" :speed="2000" :height="200">
+    <swiper :autoplay="options.autoplay" loop :pagination="{ clickable : true }" :speed="2000">
       <swiper-slide v-for="item in banners">
         <img :src="item.image" alt="">
       </swiper-slide>
@@ -40,7 +40,7 @@
 
 <style lang="less" scoped>
 img {
-  height: 240px;
+  height: 200px;
   width: 100%;
 }
 </style>
