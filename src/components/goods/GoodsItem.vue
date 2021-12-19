@@ -23,6 +23,7 @@ export default {
   width: 48%;
   padding-bottom: 20px;
   position: relative;
+  /*text-overflow: ellipsis;*/
 }
 .goods-item img{
   width: 100%;

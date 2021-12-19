@@ -23,8 +23,8 @@ export default {
 <style scoped>
 .goods {
   display: inline-flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  flex-wrap: wrap; /*包裹，否则数据会往一行塞*/
+  justify-content: space-around;/*图片中间的空隙均等分，两边是中间的一半*/
   padding: 2px;
 }
 </style>

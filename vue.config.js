@@ -7,6 +7,6 @@ module.exports = {
    }
   },
   outputDir: 'supermarket', //打包完之后的文件夹名称
-  assetsDir:'static',
-  publicPath:'./'
+  publicPath: '/supermarket/',//该路径要和outputDir一样
+  assetsDir:'static'
 }
